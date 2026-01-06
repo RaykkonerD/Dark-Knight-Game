@@ -1,0 +1,605 @@
+disk I/O error
+[CoreBusinessMetrics] Unable to lock db rows in cache. SQLite returned error message "disk I/O error"
+Unity Editor version:    6000.3.1f1 (37142da19a94)
+Branch:                  6000.3/respin/6000.3.1f1-f56f53296c2c
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #91~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 15:20:45 UTC 2
+Kernel version:          6.8.0-90-generic
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        64076 MB
+Date:                    2026-01-05T23:02:38Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb" at "2026-01-05T23:02:38.169681Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              cb6fc2142f244edcb9e918cfb6e4be10
+  Correlation Id:          b01a32e69019334de4cd9715cdfd0350
+  External correlation Id: 889578355063413223
+  Machine Id:              sbIb1fEphs9lQu1gWw5rC7lCrG4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ifpb" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb-notifications" at "2026-01-05T23:02:38.170366Z"
+[Licensing::Module] Licensing Background thread has ended after 0.00s
+Selected window backend: (null) 
+Desktop is 2560 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+/home/ifpb/Dark Knight
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+36131
+-licensingIpc
+LicenseClient-ifpb
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /home/ifpb/Dark Knight
+/home/ifpb/Dark Knight
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [135391433337600]  Target information:
+
+Player connection [135391433337600]  * "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 767201338 [EditorId] 767201338 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [135391433337600]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 767201338 [EditorId] 767201338 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [135391433337600]  * "[IP] 172.20.0.1 [Port] 0 [Flags] 2 [Guid] 767201338 [EditorId] 767201338 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [135391433337600]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 767201338 [EditorId] 767201338 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [135391433337600] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [135391433337600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1,05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 6000.3.1f1 (37142da19a94)
+[Subsystems] Discovering subsystems at path /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/ifpb/Dark Knight/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) UHD Graphics 730 (ADL-S GT1)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.3
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
+t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow
+_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1911634080
+Initialize mono
+Mono path[0] = '/home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Managed'
+Mono path[1] = '/home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56774
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674135863822-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,001484 seconds.
+- Loaded All Assemblies, in  0,272 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 183 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,533 seconds
+Domain Reload Profiling: 805ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (58ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (497ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (263ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Failed to get row count. SQLite returned error message "disk I/O error"========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0,526 seconds
+Refreshing native plugins compatible for Editor in 0,27 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,663 seconds
+Domain Reload Profiling: 1187ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (663ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+AutoLocale: current locale expects 'C' but got 'pt_BR.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6929 unused Assets / (4.8 MB). Loaded Objects now: 7764.
+Memory consumption went from 145.1 MB to 140.3 MB.
+Total: 10.517263 ms (FindLiveObjects: 0.449991 ms CreateObjectMapping: 0.566122 ms MarkObjects: 6.412900 ms  DeleteObjects: 3.087637 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 467290.911432 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth 4.wav
+  artifactKey: Guid(90535e96852ceb94f8bb2ea4b4d39f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth 4.wav using Guid(90535e96852ceb94f8bb2ea4b4d39f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d58d8e4e5ca6aa8c6445edf4d36bb1d') in 0.061748524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth 7.wav
+  artifactKey: Guid(375ad1ba3e04a644fb13137a93e03da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth 7.wav using Guid(375ad1ba3e04a644fb13137a93e03da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '407a04db02da38caf866205d9bb6ddc0') in 0.003719288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069491 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 0.wav
+  artifactKey: Guid(73f1f7ec29937f84791353a93eb025af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 0.wav using Guid(73f1f7ec29937f84791353a93eb025af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15dbf9cc154f9e40bc7e613519736ddd') in 0.003885525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 4.wav
+  artifactKey: Guid(a5beb20f9e764e949a4a4460ceee1e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 4.wav using Guid(a5beb20f9e764e949a4a4460ceee1e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd897c1dbe22caf40af4bc2a0436864b1') in 0.003497199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 1.wav
+  artifactKey: Guid(3f27f8f6fab6040428c5490a608a5275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 1.wav using Guid(3f27f8f6fab6040428c5490a608a5275) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12c3b6c6511ffaab31687195a229ac8b') in 0.003434344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Portal Temporary 2.wav
+  artifactKey: Guid(841b9726d91ab8942a6d36dc6ec1af5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Portal Temporary 2.wav using Guid(841b9726d91ab8942a6d36dc6ec1af5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de7018b500ede4efd6e2fc0858af27cc') in 0.003293396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Running Snow 2.wav
+  artifactKey: Guid(b1ac493872e042f42af14db274fd6623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Running Snow 2.wav using Guid(b1ac493872e042f42af14db274fd6623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03ee7139e5bf2b1a3b73625b28294250') in 0.002716374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pressure Containment Unlock 2.wav
+  artifactKey: Guid(03787a23ff566424788ce56c25610348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pressure Containment Unlock 2.wav using Guid(03787a23ff566424788ce56c25610348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '010a4cce11a6b0a41cdac07ed605e492') in 0.002976115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 9.wav
+  artifactKey: Guid(97792f98becf8484081710449b1cf28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 9.wav using Guid(97792f98becf8484081710449b1cf28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7a6dd9c0b79d7886724d9b13be10849') in 0.002776485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Portal Temporary 1.wav
+  artifactKey: Guid(6557678901442a242b688c8b8e8f1614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Portal Temporary 1.wav using Guid(6557678901442a242b688c8b8e8f1614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf177724470964f9e7151ea0006b7b9a') in 0.007246755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 9.wav
+  artifactKey: Guid(b74140fc3a077f740b64c54dab728cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 9.wav using Guid(b74140fc3a077f740b64c54dab728cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04a5ed1757d1a3842b359dd9d6328a40') in 0.003327321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol Revolver 2.wav
+  artifactKey: Guid(d99ffeeb5ff426344b565b6f657023d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol Revolver 2.wav using Guid(d99ffeeb5ff426344b565b6f657023d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4770bad29e87708f39ec5065e1be15a4') in 0.00446628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol 2.wav
+  artifactKey: Guid(7feb183ada0f9bc4e91f915f761eec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol 2.wav using Guid(7feb183ada0f9bc4e91f915f761eec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee3d63d72cddcea689d94ec6d3e08db5') in 0.002761918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 2(Loop).wav
+  artifactKey: Guid(840960b1b1124c64fbeede4d1bd63d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 2(Loop).wav using Guid(840960b1b1124c64fbeede4d1bd63d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2221d83a69aef6e521113418d12b017b') in 0.002827915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol Silenced Shot.wav
+  artifactKey: Guid(2d6094f5662a59246accd220db9abba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol Silenced Shot.wav using Guid(2d6094f5662a59246accd220db9abba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c7c1f0859297279ac4542b873fac7c0') in 0.004072334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol Silenced Shot 2.wav
+  artifactKey: Guid(44b6ac78700cebd459befbc987df3ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol Silenced Shot 2.wav using Guid(44b6ac78700cebd459befbc987df3ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5502fee7c66cc77e4f294dd27d6859bd') in 0.003010304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol 1.wav
+  artifactKey: Guid(9b33b3cec704308458f83281ec5ff75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol 1.wav using Guid(9b33b3cec704308458f83281ec5ff75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f6211f90586c97d7e306d9dbe2d54b7') in 0.002700979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 1.wav
+  artifactKey: Guid(63b65478720ad224e99ed30556517afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 1.wav using Guid(63b65478720ad224e99ed30556517afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6441f40e8c2acce6833f6df9829ac9a') in 0.003092157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Submarine 2.wav
+  artifactKey: Guid(f07686b3648f72d44bc1a679355ae396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Submarine 2.wav using Guid(f07686b3648f72d44bc1a679355ae396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dc9623fc37ed9127ccb6fc7dd24a2a7') in 0.006754384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Walking 1(Loop).wav
+  artifactKey: Guid(25d81d05e7ef44141b46b5d5a131a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Walking 1(Loop).wav using Guid(25d81d05e7ef44141b46b5d5a131a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a08533c2aa84ef8ff9f2a891c00fda61') in 0.002572577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 9.wav
+  artifactKey: Guid(06b46a78bf3e05248a87d97cea2c0684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 9.wav using Guid(06b46a78bf3e05248a87d97cea2c0684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00f804d662d50b2a39adac4d8b0425b0') in 0.00547839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Satellite 2.wav
+  artifactKey: Guid(6b8723c09ccb810469c307fad19493d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Satellite 2.wav using Guid(6b8723c09ccb810469c307fad19493d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82902f12bb1b2c96c3023c9e7e45322a') in 0.003339189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Submarine 4(Underwater).wav
+  artifactKey: Guid(0762dad6f67bb034986659aac23e35ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Submarine 4(Underwater).wav using Guid(0762dad6f67bb034986659aac23e35ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8f55de82a8b9568a89226a720e2f460') in 0.002985277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 3.wav
+  artifactKey: Guid(a81024807252c9a4fa17c2472e1286fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 3.wav using Guid(a81024807252c9a4fa17c2472e1286fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d448a106bf617be35a95876670205dc') in 0.002612109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 6.wav
+  artifactKey: Guid(9b610261f1838b546a2f415574482608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 6.wav using Guid(9b610261f1838b546a2f415574482608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ac72270711cd36f0fcb343141853c03') in 0.00306291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Sniper Rifle 1.wav
+  artifactKey: Guid(ce9961c9bca6dd04795f8f1e4031cc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Sniper Rifle 1.wav using Guid(ce9961c9bca6dd04795f8f1e4031cc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10750659f3d3d9d3b569bd4d3259e554') in 0.00331491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 1.wav
+  artifactKey: Guid(c50bf477ee6b9b04993070e96e3adad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 1.wav using Guid(c50bf477ee6b9b04993070e96e3adad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fee798f42c99e10920d672eb23895ee') in 0.003306436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 10.wav
+  artifactKey: Guid(e21d88d47d41e9a449b43b9e1303dc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Underwater 10.wav using Guid(e21d88d47d41e9a449b43b9e1303dc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0240d7afe6c1a052d12e3fe40780454b') in 0.00314723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 4.wav
+  artifactKey: Guid(7f53df1974d5fcb40946d2abfe0c5bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 4.wav using Guid(7f53df1974d5fcb40946d2abfe0c5bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c05b46623167786ed671ea9b66fbcd1') in 0.003314643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Submarine 1.wav
+  artifactKey: Guid(6c5f18cca3f082a4ab8062d2d8a227bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Submarine 1.wav using Guid(6c5f18cca3f082a4ab8062d2d8a227bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10016d8195f31677e0733e15762331f3') in 0.00331379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Shovel Digging 2.wav
+  artifactKey: Guid(c384493578749504097e20ca0b379d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Shovel Digging 2.wav using Guid(c384493578749504097e20ca0b379d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29fbe1d4738611c608df1d149bd1d4de') in 0.003112382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol 3.wav
+  artifactKey: Guid(1e73ae116ba1572478f6fee0ac2a3c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pistol 3.wav using Guid(1e73ae116ba1572478f6fee0ac2a3c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '456cdcd27f0b5305ced668e3108aa390') in 0.004098598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Portal Incoming(Sub-Interior-Medium).wav
+  artifactKey: Guid(93256715e476f0442838219a8b096f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Portal Incoming(Sub-Interior-Medium).wav using Guid(93256715e476f0442838219a8b096f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0feeb3a5fb65bfcf507d895d6e070347') in 0.00297271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Sniper Rifle 2.wav
+  artifactKey: Guid(feb60d7b9a7735941bf018b0f4383874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Sniper Rifle 2.wav using Guid(feb60d7b9a7735941bf018b0f4383874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c59dae35a71e668c00022838c909b89') in 0.003077991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 6.wav
+  artifactKey: Guid(b46831356b2a8974d820b1924f84c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Safe Cracking 6.wav using Guid(b46831356b2a8974d820b1924f84c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bab3d38cbeb1941fb37485af2b77fa4') in 0.006209257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Shotgun Reload 1.wav
+  artifactKey: Guid(4dc108da73540ff4c83835b7d21c163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Shotgun Reload 1.wav using Guid(4dc108da73540ff4c83835b7d21c163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e754a0c6699f495584c59c45b631f24d') in 0.003930878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pressure Containment Unlock 1.wav
+  artifactKey: Guid(7cc7893ef09d18e4ba4b1d08a300000b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pressure Containment Unlock 1.wav using Guid(7cc7893ef09d18e4ba4b1d08a300000b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39354693d7f3e84dc56961dd6923c4e1') in 0.003096759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 7.wav
+  artifactKey: Guid(614e117ff973bd442bf627ccdd206822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth Dial 7.wav using Guid(614e117ff973bd442bf627ccdd206822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a44672d23e9ee999a4c42515d8feeaf') in 0.002971066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Vibrate.wav
+  artifactKey: Guid(b8fccb90cb865474cbeb2b5ffb988218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Vibrate.wav using Guid(b8fccb90cb865474cbeb2b5ffb988218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '178fc1ee2af508b40612fd2c5870a472') in 0.002825333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Shotgun 4.wav
+  artifactKey: Guid(5173f3cbf62fe254e9b9da5a17a744de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Shotgun 4.wav using Guid(5173f3cbf62fe254e9b9da5a17a744de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16a86c62e4ff28b86e197cee77ef54a9') in 0.002707455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth 6.wav
+  artifactKey: Guid(ab8921dbbf3c6b8429ef616961e62084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Phone Booth 6.wav using Guid(ab8921dbbf3c6b8429ef616961e62084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '703cd4c2141e2a750c0c94c3db5df441') in 0.002591686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pressure Containment Unlock 4.wav
+  artifactKey: Guid(24a75b0ac7a0f7344a1c1e18e5d71806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pressure Containment Unlock 4.wav using Guid(24a75b0ac7a0f7344a1c1e18e5d71806) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69319e8d63ac9b9241216c5a53b4074c') in 0.004373998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Portal Incoming(Exterior-Large).wav
+  artifactKey: Guid(fe2939141f5db2e4a94617e65e008f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Portal Incoming(Exterior-Large).wav using Guid(fe2939141f5db2e4a94617e65e008f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a2049b42a7b00c34662e83fc665811b') in 0.004822476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pressure Containment Unlock 6.wav
+  artifactKey: Guid(36e1487abac7cec48b7d779cfd5507c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Solutions/Basic RPG Sounds/Audio/Pressure Containment Unlock 6.wav using Guid(36e1487abac7cec48b7d779cfd5507c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad5ede66569a2833829a02691660aef6') in 0.003267013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
