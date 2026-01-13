@@ -11,6 +11,7 @@ TagManager:
   - AbismalZone
   - Ground
   - MovingPlatform
+  - CaveEntrance
   layers:
   - Default
   - TransparentFX
