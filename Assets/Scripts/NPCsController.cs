@@ -38,7 +38,7 @@ public class NPCsController : MonoBehaviour
     private bool PlayerIsNext()
     {
         float distanceToPlayer = transform.position.x - playerTransform.position.x;
-        bool isNext = Mathf.Abs(distanceToPlayer) <= attackRange && Mathf.Abs(transform.position.y - playerTransform.position.y) <= 0.9f;
+        bool isNext = Mathf.Abs(distanceToPlayer) <= attackRange && Mathf.Abs(transform.position.y - playerTransform.position.y) <= 0.9f * attackRange;
         return isNext;
     }
     

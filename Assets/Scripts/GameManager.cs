@@ -13,6 +13,12 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    public void NextPhase()
+    {
+        gameOvermenu.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
     // Update is called once per frame
     void Update()
     {

@@ -41,8 +41,10 @@ public class HeroKnight : MonoBehaviour {
     public Text coinCounter;
     private float m_fallHeight;
     private float fallThreshold = 5f;
-    private bool fallHeightRecorded = false;
+    public bool fallHeightRecorded = false;
     private Rigidbody2D currentPlatformRb;
+    public bool isDead { get { return baseLives <= 0; } }
+    public Transform pontoAtaque;
 
     // Use this for initialization
     void Start ()
@@ -61,7 +63,7 @@ public class HeroKnight : MonoBehaviour {
 
     void LateUpdate()
     {
-        if (transform.position.x > startPos + 5f)
+        if (transform.position.x > startPos + 5f && transform.position.x < 68f)
         {
             Vector3 camPos = cameraTransform.position;
             camPos.x = transform.position.x + 2f;
@@ -106,6 +108,11 @@ public class HeroKnight : MonoBehaviour {
         gameManager.GameOver();
     }
 
+    public void GoToNextPhase()
+    {
+        gameManager.NextPhase();
+    }
+
     public void PlayJumpSound()
     {
         jumpSound.Play();
@@ -137,6 +144,10 @@ public class HeroKnight : MonoBehaviour {
         else if (other.gameObject.CompareTag("AbismalZone"))
         {
             TakeDamage(baseLives);
+        }
+        else if (other.gameObject.CompareTag("CaveEntrance"))
+        {
+            Invoke("GoToNextPhase", 0.5f);
         }
     }
 
@@ -234,6 +245,7 @@ public class HeroKnight : MonoBehaviour {
                     inputX * m_speed + platformVelocityX,
                     m_body2d.linearVelocity.y
                 );
+                pontoAtaque.position = new Vector3(transform.position.x + (0.5f * m_facingDirection), pontoAtaque.position.y, pontoAtaque.position.z);
             }
 
             //Set AirSpeed in animator
@@ -241,8 +253,8 @@ public class HeroKnight : MonoBehaviour {
 
             // -- Handle Animations --
             //Wall Slide
-            m_isWallSliding = (m_wallSensorR1.State() && m_wallSensorR2.State()) ||
-                              (m_wallSensorL1.State() && m_wallSensorL2.State());
+            m_isWallSliding = !m_groundSensor.State() && ((m_wallSensorR1.State() && m_wallSensorR2.State()) ||
+                              (m_wallSensorL1.State() && m_wallSensorL2.State()));
             m_animator.SetBool("WallSlide", m_isWallSliding);
 
             //Death

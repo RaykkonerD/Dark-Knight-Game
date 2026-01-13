@@ -8,6 +8,9 @@ TagManager:
   - HealthSprite
   - CoinSprite
   - LifePotionSprite
+  - AbismalZone
+  - Ground
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX

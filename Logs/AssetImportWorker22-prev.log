@@ -5134,3 +5134,233 @@ Memory consumption went from 150.4 MB to 146.7 MB.
 Total: 8.463733 ms (FindLiveObjects: 0.481198 ms CreateObjectMapping: 0.458301 ms MarkObjects: 5.716523 ms  DeleteObjects: 1.806783 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13202.425031 seconds.
+  path: Assets/HealthHeartSystem/Prefabs
+  artifactKey: Guid(27764678eb252ed46870bc3416c6a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Prefabs using Guid(27764678eb252ed46870bc3416c6a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'beafd3bf477c86d8be499129df499e45') in 0.004992198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176371 seconds.
+  path: Assets/HealthHeartSystem/Prefabs/HeartContainer.prefab
+  artifactKey: Guid(677e3f20f0ab76a45bd59d5b73b0b446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Prefabs/HeartContainer.prefab using Guid(677e3f20f0ab76a45bd59d5b73b0b446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ab4a0a968bd12a9fa4eeee8a7c8307a') in 0.025344127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.153321 seconds.
+  path: Assets/HealthHeartSystem/Scripts
+  artifactKey: Guid(05fab8bcb2bc0d141b51be88e3d32009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Scripts using Guid(05fab8bcb2bc0d141b51be88e3d32009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '490e9e321b52cab2e4e8b24079674036') in 0.000354513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1078.478377 seconds.
+  path: Assets/kindpng_1829605.png
+  artifactKey: Guid(e8008c04bc2204f93bc8714fe427e28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kindpng_1829605.png using Guid(e8008c04bc2204f93bc8714fe427e28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cee3f565afe385901e2ac07bea27b14') in 0.044883538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.265839 seconds.
+  path: Assets/Scripts/MovingPlatformController.cs
+  artifactKey: Guid(3491d613f3de6b9f98210c31fed211ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/MovingPlatformController.cs using Guid(3491d613f3de6b9f98210c31fed211ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c68b4874616ba6353a364cb1d0ef0449') in 0.048651402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kindpng_1829605.png
+  artifactKey: Guid(e8008c04bc2204f93bc8714fe427e28a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/kindpng_1829605.png using Guid(e8008c04bc2204f93bc8714fe427e28a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '281ad9e1a581112e9df3e287cae131d5') in 0.04775588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.113766 seconds.
+  path: Assets/Animations/Dragon Fly.anim
+  artifactKey: Guid(de746519ec61c736ab630b7118a0d3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Dragon Fly.anim using Guid(de746519ec61c736ab630b7118a0d3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '279f0d008649c015f52fa20921d00aba') in 0.008491908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.999164 seconds.
+  path: Assets/Animations/Dragon Fly.anim
+  artifactKey: Guid(de746519ec61c736ab630b7118a0d3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Dragon Fly.anim using Guid(de746519ec61c736ab630b7118a0d3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53b2be5d98a148a0deda49750acc53df') in 0.002878317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10767.110501 seconds.
+  path: Assets/dragon.png
+  artifactKey: Guid(8d7dfccc0ec72f553b6fccb15b6b15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dragon.png using Guid(8d7dfccc0ec72f553b6fccb15b6b15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd97e77999d4a8bdb0def3673e6f92fb') in 0.017872019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.766483 seconds.
+  path: Assets/dragon.png
+  artifactKey: Guid(8d7dfccc0ec72f553b6fccb15b6b15a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragon.png using Guid(8d7dfccc0ec72f553b6fccb15b6b15a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9de37640aefb53e0f8fc3da6cf07d1c1') in 0.008661674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.350529 seconds.
+  path: Assets/Animations/Dragon Flying.anim
+  artifactKey: Guid(1154d335bb0b044b99f9e1068210c0c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Dragon Flying.anim using Guid(1154d335bb0b044b99f9e1068210c0c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '511db86a69654417e84162cae5018f0f') in 0.002291269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1219.686422 seconds.
+  path: Assets/Flying Dragon.png
+  artifactKey: Guid(2fc757148f1b0bf1f920f3a041aead77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flying Dragon.png using Guid(2fc757148f1b0bf1f920f3a041aead77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7ff16f3dd88179e24d84d093edb6d8a') in 0.026188778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.762846 seconds.
+  path: Assets/Flying Dragon.png
+  artifactKey: Guid(2fc757148f1b0bf1f920f3a041aead77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Flying Dragon.png using Guid(2fc757148f1b0bf1f920f3a041aead77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35694a809254061517a3e87b5b842de3') in 0.00819571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.097920 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(3df242fa145deec128df931802e6fbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(3df242fa145deec128df931802e6fbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21b7389e4cd206fffad8523be2c282d2') in 0.00034382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.350292 seconds.
+  path: Assets/Animations/Dragon Flying.anim
+  artifactKey: Guid(1154d335bb0b044b99f9e1068210c0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Dragon Flying.anim using Guid(1154d335bb0b044b99f9e1068210c0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f7effa53d25e7afc1008add5fde89e4') in 0.000805873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.332479 seconds.
+  path: Assets/Animations/Flying Dragon_0.controller
+  artifactKey: Guid(32ee163a58c109da4ba52782560a9e47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Flying Dragon_0.controller using Guid(32ee163a58c109da4ba52782560a9e47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76f27f2bc903c97ac6611db376c1382f') in 0.002355458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 985.008329 seconds.
+  path: Assets/Fire dragon.png
+  artifactKey: Guid(89b6200db916b0d1f9b4653396c05df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fire dragon.png using Guid(89b6200db916b0d1f9b4653396c05df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55854a7aa2ed4ef6c60d3306ae11221a') in 0.023359762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.745231 seconds.
+  path: Assets/Fire dragon.png
+  artifactKey: Guid(89b6200db916b0d1f9b4653396c05df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fire dragon.png using Guid(89b6200db916b0d1f9b4653396c05df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29a235023510dec8030716e35dc8aa53') in 0.010091994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 384.066779 seconds.
+  path: Assets/Fire dragon.png
+  artifactKey: Guid(89b6200db916b0d1f9b4653396c05df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fire dragon.png using Guid(89b6200db916b0d1f9b4653396c05df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5dbc1c328c5c9ff4ad03ef4e4002738') in 0.023346216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.922311 seconds.
+  path: Assets/Fire dragon.png
+  artifactKey: Guid(89b6200db916b0d1f9b4653396c05df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fire dragon.png using Guid(89b6200db916b0d1f9b4653396c05df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a7add392f272a3fc3c6c16353bdf908') in 0.006794862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.310920 seconds.
+  path: Assets/Animations/Dragon Fire.anim
+  artifactKey: Guid(253f48c64db48b9169132599fb3f583c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Dragon Fire.anim using Guid(253f48c64db48b9169132599fb3f583c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f156a8dac1c4561a0bb273c2e2675f5') in 0.002257625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 56683.469195 seconds.
+  path: Assets/Fire dragon.png
+  artifactKey: Guid(89b6200db916b0d1f9b4653396c05df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fire dragon.png using Guid(89b6200db916b0d1f9b4653396c05df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a69763c5a234f93cc70f4566df41bf37') in 0.026143254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933860 seconds.
+  path: Assets/Fire dragon.png
+  artifactKey: Guid(89b6200db916b0d1f9b4653396c05df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fire dragon.png using Guid(89b6200db916b0d1f9b4653396c05df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a43d456d4148ba9b597cd3213d972113') in 0.006701875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.287541 seconds.
+  path: Assets/Animations/Dragon Fire 2.anim
+  artifactKey: Guid(2e00607f16b758975b7bd368482637d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Dragon Fire 2.anim using Guid(2e00607f16b758975b7bd368482637d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5361760070e501599f31f8ad40e23c46') in 0.002361017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.182587 seconds.
+  path: Assets/Animations/dragon_0.controller
+  artifactKey: Guid(b0a01d771ed0667539f7394f1891bebd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/dragon_0.controller using Guid(b0a01d771ed0667539f7394f1891bebd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b9ca2640c5ae26aa3f7e99101ee74fc') in 0.001719457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.153810 seconds.
+  path: Assets/Animations/Dragon Fire 2.anim
+  artifactKey: Guid(2e00607f16b758975b7bd368482637d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Dragon Fire 2.anim using Guid(2e00607f16b758975b7bd368482637d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e20ae2d172505f3aef187ca1345479ef') in 0.002482609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animations/Fire dragon_0 1.controller
+  artifactKey: Guid(d7ee6aac726b07948965776ef6f2b091) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Fire dragon_0 1.controller using Guid(d7ee6aac726b07948965776ef6f2b091) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28477654a2e78c0b75d53f212cba99b3') in 0.002985313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Animations/Fire dragon_0.controller
+  artifactKey: Guid(576b0692755b0da2cb9bea436a622ec9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Fire dragon_0.controller using Guid(576b0692755b0da2cb9bea436a622ec9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a53a7ac26efaf0da8f0da901125d911') in 0.002292873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

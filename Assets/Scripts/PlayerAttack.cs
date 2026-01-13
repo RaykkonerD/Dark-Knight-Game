@@ -4,9 +4,8 @@ public class PlayerAttack : MonoBehaviour
 {
     public Transform pontoAtaque;
     public AudioSource somAtaque;
-    public float alcanceAtaque = 0.8f;
+    public float alcanceAtaque = 0.85f;
     
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
