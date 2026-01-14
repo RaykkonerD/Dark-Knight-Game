@@ -45,6 +45,7 @@ public class NPCsController : MonoBehaviour
     private void StartAttack()
     {
         animator.SetBool("attacking", true);
+        animator.SetBool("walking", false);
         Invoke("DealDamage", 0.3f);
         attackTimer = attackCooldown;
     }

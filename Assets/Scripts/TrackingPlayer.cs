@@ -20,7 +20,8 @@ public class TrackingPlayer : MonoBehaviour
             playerIsNext && 
             Mathf.Abs(distanceToPlayer) > stopDistance &&
             !playerIsFalling &&
-            !playerIsDead)
+            !playerIsDead && 
+            !animator.GetBool("attacking"))
         {
             Vector3 npcTransform = transform.position;
             npcTransform.x += -Mathf.Sign(distanceToPlayer) * moveSpeed * Time.deltaTime;

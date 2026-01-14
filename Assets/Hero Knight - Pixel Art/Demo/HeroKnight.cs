@@ -63,7 +63,7 @@ public class HeroKnight : MonoBehaviour {
 
     void LateUpdate()
     {
-        if (transform.position.x > startPos + 5f && transform.position.x < 68f)
+        if (transform.position.x > startPos + 5f && transform.position.x < 68f && gameManager.currentPhase == 1)
         {
             Vector3 camPos = cameraTransform.position;
             camPos.x = transform.position.x + 2f;
@@ -147,6 +147,8 @@ public class HeroKnight : MonoBehaviour {
         }
         else if (other.gameObject.CompareTag("CaveEntrance"))
         {
+            Debug.Log("Entrou na caverna");
+            other.enabled = false;
             Invoke("GoToNextPhase", 0.5f);
         }
     }
