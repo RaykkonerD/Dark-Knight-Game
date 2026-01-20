@@ -198,6 +198,7 @@ public class HeroKnight : MonoBehaviour {
                     fallHeightRecorded = false;
                 }
                 m_grounded = true;
+                m_animator.SetBool("WallSlide", false);
                 m_animator.SetBool("Grounded", m_grounded);
                 PlayLandSound();
             }
@@ -220,6 +221,11 @@ public class HeroKnight : MonoBehaviour {
 
             // -- Handle input and movement --
             float inputX = Input.GetAxis("Horizontal");
+
+            if(inputX != 0)
+            {
+                m_animator.SetBool("WallSlide", false);
+            }
 
             // Swap direction of sprite depending on walk direction
             if (inputX > 0)
@@ -255,9 +261,10 @@ public class HeroKnight : MonoBehaviour {
 
             // -- Handle Animations --
             //Wall Slide
-            m_isWallSliding = !m_groundSensor.State() && ((m_wallSensorR1.State() && m_wallSensorR2.State()) ||
+            m_isWallSliding = !m_grounded && ((m_wallSensorR1.State() && m_wallSensorR2.State()) ||
                               (m_wallSensorL1.State() && m_wallSensorL2.State()));
             m_animator.SetBool("WallSlide", m_isWallSliding);
+            fallHeightRecorded = m_isWallSliding ? false : fallHeightRecorded;
 
             //Death
             if (Input.GetKeyDown("e") && !m_rolling)
