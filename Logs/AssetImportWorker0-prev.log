@@ -1,5 +1,5 @@
-Unity Editor version:    6000.3.1f1 (37142da19a94)
-Branch:                  6000.3/respin/6000.3.1f1-f56f53296c2c
+Unity Editor version:    6000.3.2f1 (a9779f353c9b)
+Branch:                  6000.3/staging
 Build type:              Release
 Batch mode:              YES
 System name:             Linux
@@ -8,20 +8,20 @@ Kernel version:          6.8.0-90-generic
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        64076 MB
-Date:                    2026-01-13T00:53:56Z
+Date:                    2026-01-13T18:13:42Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb" at "2026-01-13T00:53:56.274357Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb" at "2026-01-13T18:13:42.0726Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              fb8018d8ea6d49a185c4f58463e47b10
+  Session Id:              aeb913a3ad364a9983cad3f7a4d60b6d
   Correlation Id:          39ca22578a2d9500e1644f4374c03f75
-  External correlation Id: 3355929527881058205
+  External correlation Id: 2625870032062146263
   Machine Id:              sbIb1fEphs9lQu1gWw5rC7lCrG4=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ifpb" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb-notifications" at "2026-01-13T00:53:56.277223Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb-notifications" at "2026-01-13T18:13:42.076041Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
-Selected window backend: (null)
+Selected window backend: (null) 
 Desktop is 2560 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
@@ -37,7 +37,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-45077
+39295
 -licensingIpc
 LicenseClient-ifpb
 -job-worker-count
@@ -83,20 +83,20 @@ Successfully changed project path to: /home/ifpb/Dark Knight
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [133709886339840]  Target information:
+Player connection [124752495028992]  Target information:
 
-Player connection [133709886339840]  * "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1439235097 [EditorId] 1439235097 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor"
+Player connection [124752495028992]  * "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 2552571480 [EditorId] 2552571480 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [133709886339840]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 1439235097 [EditorId] 1439235097 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor"
+Player connection [124752495028992]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 2552571480 [EditorId] 2552571480 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [133709886339840]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 1439235097 [EditorId] 1439235097 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor"
+Player connection [124752495028992]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 2552571480 [EditorId] 2552571480 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [133709886339840]  * "[IP] 172.20.0.1 [Port] 0 [Flags] 2 [Guid] 1439235097 [EditorId] 1439235097 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor"
+Player connection [124752495028992]  * "[IP] 172.20.0.1 [Port] 0 [Flags] 2 [Guid] 2552571480 [EditorId] 2552571480 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [133709886339840]  * "[IP] 172.22.96.129 [Port] 0 [Flags] 2 [Guid] 1439235097 [EditorId] 1439235097 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor"
+Player connection [124752495028992]  * "[IP] 172.22.96.129 [Port] 0 [Flags] 2 [Guid] 2552571480 [EditorId] 2552571480 [Version] 1048832 [Id] LinuxEditor(16,172.22.96.129) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [133709886339840] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [133709886339840] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [124752495028992] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [124752495028992] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -108,14 +108,14 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0,80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Initialize engine version: 6000.3.1f1 (37142da19a94)
-[Subsystems] Discovering subsystems at path /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
+[Subsystems] Discovering subsystems at path /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /home/ifpb/Dark Knight/Assets
 kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
 GfxDevice: creating device client; kGfxThreadingModeDirect
-GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
 Renderer: Mesa Intel(R) UHD Graphics 730 (ADL-S GT1)
 Vendor:   Intel
 Version:  4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.3
@@ -126,29 +126,29 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow
 _lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 978811472
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1597166720
 Initialize mono
-Mono path[0] = '/home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Managed'
-Mono path[1] = '/home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
-Mono config path = '/home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56802
+Mono path[0] = '/home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
+Mono path[1] = '/home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56481
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 4674135863822-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001830 seconds.
-- Loaded All Assemblies, in  0,291 seconds
+Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,001493 seconds.
+- Loaded All Assemblies, in  0,304 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 150 ms
+Android Extension - Scanning For ADB Devices 173 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -156,35 +156,35 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,526 seconds
-Domain Reload Profiling: 816ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  0,567 seconds
+Domain Reload Profiling: 871ms
+	BeginReloadAssembly (60ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (62ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (60ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (135ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (131ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (526ms)
+	FinalizeReload (567ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (487ms)
+		SetupLoadedEditorAssemblies (528ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (241ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			InitializePlatformSupportModulesInManaged (253ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -194,8 +194,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0,543 seconds
-Refreshing native plugins compatible for Editor in 0,31 ms, found 1 plugins.
+- Loaded All Assemblies, in  0,544 seconds
+Refreshing native plugins compatible for Editor in 0,34 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -204,35 +204,35 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,708 seconds
-Domain Reload Profiling: 1249ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0,714 seconds
+Domain Reload Profiling: 1257ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
+		CreateAndSetChildDomain (29ms)
 	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (363ms)
-		LoadAssemblies (198ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (200ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (145ms)
-			BuildScriptInfoCaches (40ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (39ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (708ms)
+	FinalizeReload (715ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (598ms)
+		SetupLoadedEditorAssemblies (601ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (381ms)
-			ProcessInitializeOnLoadMethodAttributes (93ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -241,377 +241,257 @@ AutoLocale: current locale expects 'C' but got 'pt_BR.UTF-8'Launched and connect
 Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6928 unused Assets / (5.0 MB). Loaded Objects now: 7763.
-Memory consumption went from 146.8 MB to 141.8 MB.
-Total: 10.710558 ms (FindLiveObjects: 0.471323 ms CreateObjectMapping: 0.597897 ms MarkObjects: 6.404493 ms  DeleteObjects: 3.236198 ms)
+Unloading 6930 unused Assets / (5.7 MB). Loaded Objects now: 7765.
+Memory consumption went from 146.9 MB to 141.2 MB.
+Total: 10.402176 ms (FindLiveObjects: 0.435270 ms CreateObjectMapping: 0.544746 ms MarkObjects: 6.303108 ms  DeleteObjects: 3.118212 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13645.797430 seconds.
-  path: Assets/Pixel FX - Fire/Prefabs/Fire_Buff.prefab
-  artifactKey: Guid(862037c7c71ec6347b71f9e57da7dbdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Prefabs/Fire_Buff.prefab using Guid(862037c7c71ec6347b71f9e57da7dbdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10919ef4fc2469edb6e30c55d7def7a2') in 0.093762827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel FX - Fire/Controllers/Fire_Meteors_Medium_B_Controller.controller
-  artifactKey: Guid(202f4fd70eabd5c42adbab8cbc7b92d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Controllers/Fire_Meteors_Medium_B_Controller.controller using Guid(202f4fd70eabd5c42adbab8cbc7b92d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4300d1ba49b18cf0b1c352269317cda2') in 0.003410545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel FX - Fire/Sprites/Fire_II_Flame_C_48x48.png
-  artifactKey: Guid(856b5e38433e0af48999417736130159) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites/Fire_II_Flame_C_48x48.png using Guid(856b5e38433e0af48999417736130159) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6b51e5f08175a6074fdde57e2316645') in 0.04722859 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel FX - Fire/Controllers/Fire_Buff_Controller.controller
-  artifactKey: Guid(fba88e23d46b06e438e523d03109c104) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Controllers/Fire_Buff_Controller.controller using Guid(fba88e23d46b06e438e523d03109c104) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1495c663a017202fc4df7a789f233164') in 0.001777974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Pixel FX - Fire/Sprites
-  artifactKey: Guid(d0985416e03d1794bbfa6ab3f01bd26d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites using Guid(d0985416e03d1794bbfa6ab3f01bd26d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b34ba388d40eca76a306bb9b58f580b') in 0.001271989 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pixel Fantasy Caves/Scenes
-  artifactKey: Guid(99582f7721c94254ca8a28001f97d678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel Fantasy Caves/Scenes using Guid(99582f7721c94254ca8a28001f97d678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e85bb73423a15e6e637c735186be15bb') in 0.001230471 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Prefabs/Fire_III_Flame_C.prefab
-  artifactKey: Guid(123491c37b61a6345b92e221d8ab889f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Prefabs/Fire_III_Flame_C.prefab using Guid(123491c37b61a6345b92e221d8ab889f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4784934ccccc62f939b9eb87907f8927') in 0.006100998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel FX - Fire/Scenes/Demo.unity
-  artifactKey: Guid(b338a23a151eee0438c66a4e2c45b664) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Scenes/Demo.unity using Guid(b338a23a151eee0438c66a4e2c45b664) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e964017028698d685f5ab7cc6608bf36') in 0.002980849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Pixel FX - Fire/Controllers/Fire_Napalm_Controller.controller
-  artifactKey: Guid(6a7e1c1e1b3b83c4481cd24381dea739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Controllers/Fire_Napalm_Controller.controller using Guid(6a7e1c1e1b3b83c4481cd24381dea739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1684084efab5ab1b100a00002a630fcf') in 0.003376723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_Meteors_Large_B_End.anim
-  artifactKey: Guid(965a3000f96377a41b4821c427029794) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_Meteors_Large_B_End.anim using Guid(965a3000f96377a41b4821c427029794) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5868ff3d2f8778f70e512502e05eead8') in 0.006795564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Prefabs/Fire Bomb.prefab
-  artifactKey: Guid(099831c921ff04f40be263e17bb36237) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Prefabs/Fire Bomb.prefab using Guid(099831c921ff04f40be263e17bb36237) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '588da8a4e171ab70f7c32d8cb54a71b9') in 0.007977893 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_Meteors_Medium_A_End.anim
-  artifactKey: Guid(7a98cbd5fbe459c4797cd9257794273e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_Meteors_Medium_A_End.anim using Guid(7a98cbd5fbe459c4797cd9257794273e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56980ccdf4500aff9b1105f1463cca9b') in 0.003465314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Prefabs/Fire_Meteors_Medium_B.prefab
-  artifactKey: Guid(28a87fdb75676cc4e9c4424a195f1bc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Prefabs/Fire_Meteors_Medium_B.prefab using Guid(28a87fdb75676cc4e9c4424a195f1bc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bac5d81154c1f4da7cabdd9f4ffbef2') in 0.005024345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Controllers/Fire_Meteors_Small_Controller.controller
-  artifactKey: Guid(ee6f8394fd22a654fa06b4edf2d75eaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Controllers/Fire_Meteors_Small_Controller.controller using Guid(ee6f8394fd22a654fa06b4edf2d75eaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e0190a29da937225813af795c84271b') in 0.001880251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Prefabs/Fire_Napalm.prefab
-  artifactKey: Guid(88ec24feb74d03746acf79c6467ce29b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Prefabs/Fire_Napalm.prefab using Guid(88ec24feb74d03746acf79c6467ce29b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f3282f84a85b2c7b791dc401103a24e') in 0.005159037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Pixel FX - Fire/Sprites/Fire_Napalm_Ball_16x16.png
-  artifactKey: Guid(dcf4953a8ed5f19409d9a804d89cc43e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites/Fire_Napalm_Ball_16x16.png using Guid(dcf4953a8ed5f19409d9a804d89cc43e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bc07ce4b2e571e6012faf2e20c6030f') in 0.0061945 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel FX - Fire/Controllers/Fire_III_Flame_A_Controller.controller
-  artifactKey: Guid(6170ffb35b0e45d4b912fa760a0bbe63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Controllers/Fire_III_Flame_A_Controller.controller using Guid(6170ffb35b0e45d4b912fa760a0bbe63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee62ee738c7995a9a7d681b1409f9c0f') in 0.009974146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel FX - Fire/Sprites/Fire_II_Flame_D_48x48.png
-  artifactKey: Guid(21d68974b0ec17b40bfbd07411d3efc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites/Fire_II_Flame_D_48x48.png using Guid(21d68974b0ec17b40bfbd07411d3efc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12a98c885e9c00953924de2288c41cb3') in 0.016384445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Pixel FX - Fire/Sprites/Fire_Meteors_Medium_A_16x16.png
-  artifactKey: Guid(f337fb1851efd8f49886ffe45b0bf0bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites/Fire_Meteors_Medium_A_16x16.png using Guid(f337fb1851efd8f49886ffe45b0bf0bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '774640757c05dde4bdabbe46881bd47e') in 0.010748319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d18a807399aecb99f7dd0474c582239') in 0.004672025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Pixel FX - Fire/Prefabs/Fire_II_Flame.prefab
-  artifactKey: Guid(ab010414735b3ee46b8e12a1b5000164) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Prefabs/Fire_II_Flame.prefab using Guid(ab010414735b3ee46b8e12a1b5000164) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8993cebebb55b3a8471c7fcf2b5ab001') in 0.004848656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel Fantasy Caves/Sliced
-  artifactKey: Guid(d8adb517ca8695442b36776340a1ec8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel Fantasy Caves/Sliced using Guid(d8adb517ca8695442b36776340a1ec8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d4cdc76b5b661fe3f8db37144fc3bd1') in 0.001328811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Pixel Fantasy Caves/background2.png
-  artifactKey: Guid(ab399925d444e6945b12d20b9f3f62f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel Fantasy Caves/background2.png using Guid(ab399925d444e6945b12d20b9f3f62f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b28778c9de7f0dfb5a5108f4b2caa54') in 0.006879464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Pixel Fantasy Caves/props2.png
-  artifactKey: Guid(527d271e3ba3f9843ba89bf17ea61f2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel Fantasy Caves/props2.png using Guid(527d271e3ba3f9843ba89bf17ea61f2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdefe088973222d566bce6f66388aed5') in 0.013977879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Pixel FX - Fire/Sprites/Fire_Napalm_Spread_128x32.png
-  artifactKey: Guid(c049ba42cf9c4254fb7c8b615fe09e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites/Fire_Napalm_Spread_128x32.png using Guid(c049ba42cf9c4254fb7c8b615fe09e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6eb7d6885952c20bd48a388302e77a8f') in 0.011120695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_Incendiary_Loop.anim
-  artifactKey: Guid(8ec5266f51be0a04b818d03ac9fa4da7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_Incendiary_Loop.anim using Guid(8ec5266f51be0a04b818d03ac9fa4da7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4ae0374cddd9d5b0f61d94783aac42d') in 0.002233427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Pixel FX - Fire/Controllers/Fire_III_Flame_C_Controller.controller
-  artifactKey: Guid(6c22817d4b74ed048847b53f519e472f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Controllers/Fire_III_Flame_C_Controller.controller using Guid(6c22817d4b74ed048847b53f519e472f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51ee8697a5c3434918185ff29efa03e5') in 0.002058076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel FX - Fire/Controllers/Fire_III_Flame_B_Controller.controller
-  artifactKey: Guid(25449c53d4b03634f90a9d8a10d2bd99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Controllers/Fire_III_Flame_B_Controller.controller using Guid(25449c53d4b03634f90a9d8a10d2bd99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2a6c1bbbfff4f9caa5cd87ea83d5f51') in 0.002801847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_Napalm_Spread.anim
-  artifactKey: Guid(502c0b31c1434874ebbb3fda097ad36d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_Napalm_Spread.anim using Guid(502c0b31c1434874ebbb3fda097ad36d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '351919c5b6ef5cafed24308f38396354') in 0.002124454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel Fantasy Caves
-  artifactKey: Guid(581e1d10cc23a5a0d9e557e2479ec4a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel Fantasy Caves using Guid(581e1d10cc23a5a0d9e557e2479ec4a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3465a6e5c85f9f44498847dac6975b35') in 0.001309313 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Pixel FX - Fire/Sprites/Fire_Incendiary_96x32.png
-  artifactKey: Guid(f5246608584596f45a9a22eb0f3cf0a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites/Fire_Incendiary_96x32.png using Guid(f5246608584596f45a9a22eb0f3cf0a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85c9b37248c542cb6e521e56955829bb') in 0.012269849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_III_Flame_B.anim
-  artifactKey: Guid(52059fd8d0fd79c4589795e310bb6d7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_III_Flame_B.anim using Guid(52059fd8d0fd79c4589795e310bb6d7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7738606be720971f105a49d38f1a12f1') in 0.002244911 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_Meteors_Large_A_End.anim
-  artifactKey: Guid(75820bed8fb142940b5b2550604195d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_Meteors_Large_A_End.anim using Guid(75820bed8fb142940b5b2550604195d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b02299939c7174c12e90913fc73b67cf') in 0.002057191 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Prefabs/Fire_Incendiary.prefab
-  artifactKey: Guid(d78d99ff754437e418458d860925d768) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Prefabs/Fire_Incendiary.prefab using Guid(d78d99ff754437e418458d860925d768) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '940aeff3518fc6772db7fa70843c15d7') in 0.004129937 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Pixel FX - Fire/Sprites/Fire_III_Hand_144x80.png
-  artifactKey: Guid(2ee49edf18f8d1545bee042a11d4f214) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites/Fire_III_Hand_144x80.png using Guid(2ee49edf18f8d1545bee042a11d4f214) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '273adf076d3c768342b5b9d756d6f5be') in 0.015165455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Pixel Fantasy Caves/mainlev_build.png
-  artifactKey: Guid(a2148cb95fda2a246b72a3834f9dc4a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel Fantasy Caves/mainlev_build.png using Guid(a2148cb95fda2a246b72a3834f9dc4a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41c5469ef3e1332f461f9216672a108a') in 0.010630833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel FX - Fire/Sprites/Fire_Bomb_Explosion_96x48.png
-  artifactKey: Guid(284e94ec97dfd604ba0cc871504d5876) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites/Fire_Bomb_Explosion_96x48.png using Guid(284e94ec97dfd604ba0cc871504d5876) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcf6ba81bd51f093af34700414ff4c80') in 0.012972686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel FX - Fire/Controllers/Fire_Meteors_Medium_A_Controller.controller
-  artifactKey: Guid(c14f6fca4a428bc43950a9ba10ab9eb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Controllers/Fire_Meteors_Medium_A_Controller.controller using Guid(c14f6fca4a428bc43950a9ba10ab9eb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc2226801e74dbba44160d3fde23ed00') in 0.002154756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_Meteors_Large_B_Start.anim
-  artifactKey: Guid(c98be7550e85d9a46bac9ac7d98aaf27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_Meteors_Large_B_Start.anim using Guid(c98be7550e85d9a46bac9ac7d98aaf27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd76769ef3e092a26aeaad45bf9c45aac') in 0.002758942 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Animations
-  artifactKey: Guid(4089cb193b69c704eba77fac67c88dc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations using Guid(4089cb193b69c704eba77fac67c88dc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f124d07dc651c14556e7d1cd7c9a8b08') in 0.001532168 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel FX - Fire/Controllers/Fire_I_Controller.controller
-  artifactKey: Guid(296d386ca241dc3449a475559d8875e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Controllers/Fire_I_Controller.controller using Guid(296d386ca241dc3449a475559d8875e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b90d6d5ce254fa28fc1d68c8749f2626') in 0.00174608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_III_Flame_C.anim
-  artifactKey: Guid(bd38458680a86ac4f881485d94c7850c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_III_Flame_C.anim using Guid(bd38458680a86ac4f881485d94c7850c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0e79eb445ec1a9a383abe921fbd2dda') in 0.00226944 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_III_Hand_Attack_Loop.anim
-  artifactKey: Guid(eccc3a514526b744cbb11af0d96ed9b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_III_Hand_Attack_Loop.anim using Guid(eccc3a514526b744cbb11af0d96ed9b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '990f9083f96ea6852569e3a4085fe520') in 0.00223648 seconds
+  Time since last request: 29199.813152 seconds.
+  path: Assets/dragão/PNG/191x161
+  artifactKey: Guid(a9b0d364cf55df54b92cc9b25c182287) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/PNG/191x161 using Guid(a9b0d364cf55df54b92cc9b25c182287) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3789d8e8be5b43fbcf721f65d5eaff84') in 0.03333972 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_Debuff_End.anim
-  artifactKey: Guid(998ba480b39517a49b9f551417d655a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_Debuff_End.anim using Guid(998ba480b39517a49b9f551417d655a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3dc274c5590d5be9b41b1ea7f7634315') in 0.002327493 seconds
+  path: Assets/Gemini_Generated_Image_p71a5p71a5p71a5p.png
+  artifactKey: Guid(afd769f05ac540f4bb96e07ca276b444) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Gemini_Generated_Image_p71a5p71a5p71a5p.png using Guid(afd769f05ac540f4bb96e07ca276b444) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37ecf8946f51207201226d7f2c1e9091') in 0.066068664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/fase3.unity
+  artifactKey: Guid(c9d90a986ea8e7f468339752355dadb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/fase3.unity using Guid(c9d90a986ea8e7f468339752355dadb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4678844ac47e05d4c8bbf3a7f18f6bc9') in 0.002259832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/CaveEntrance.cs
+  artifactKey: Guid(2fbc995df6bc96df1a7462abee315eb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/CaveEntrance.cs using Guid(2fbc995df6bc96df1a7462abee315eb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a54b175e81c9611cf0316fd88198ce6a') in 0.001881551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/dragão/PNG/144x128/flying_twin_headed_dragon-red.png
+  artifactKey: Guid(449e4bebbf102eb4d822181ab9973963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/PNG/144x128/flying_twin_headed_dragon-red.png using Guid(449e4bebbf102eb4d822181ab9973963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfd6a4583a02111f7b462a31757d6fed') in 0.011372155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Animations/Controlers/GoblinAnimatorController.controller
+  artifactKey: Guid(19da60f4c1682abe0b7e2d37abdad30f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Controlers/GoblinAnimatorController.controller using Guid(19da60f4c1682abe0b7e2d37abdad30f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '789f54c915b6195b0ff47d5897799cc6') in 0.003204934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/dragão/dragão-voando-de-ladinho.anim
+  artifactKey: Guid(9cfd1f9baac645b42982015e63599171) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/dragão-voando-de-ladinho.anim using Guid(9cfd1f9baac645b42982015e63599171) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c4ea9e14050e6bba9c58dc2db5d28a4') in 0.00728476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/dragão/PNG/191x161/flying_dragon-red-RGB_11.controller
+  artifactKey: Guid(f9dbb0d631d72d242b369214db89e670) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/PNG/191x161/flying_dragon-red-RGB_11.controller using Guid(f9dbb0d631d72d242b369214db89e670) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '804689bf65db06938d418ec5f1dae373') in 0.00174322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/dragão
+  artifactKey: Guid(deacd08966539e04a8c8b481d3b60977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão using Guid(deacd08966539e04a8c8b481d3b60977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4edc43cd2c42df74f10f2a1d9eabacaf') in 0.001253986 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000010 seconds.
-  path: Assets/Pixel FX - Fire/Sprites/Fire_III_Flame_C_80x48.png
-  artifactKey: Guid(5b8ac3b48d3ce374d9e8eb65766c0e84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Sprites/Fire_III_Flame_C_80x48.png using Guid(5b8ac3b48d3ce374d9e8eb65766c0e84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9966a57f1ac35e307a64e41ea136e38') in 0.008921786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  path: Assets/dragão/README.txt
+  artifactKey: Guid(6c6d33611d628544bb94e5f59db90e3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/README.txt using Guid(6c6d33611d628544bb94e5f59db90e3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abb0aefd3c9c9286f39272c4d64f4238') in 0.001342015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/dragão/LICENSE.txt
+  artifactKey: Guid(74a956f4008b8ee4f90895d0ac19f471) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/LICENSE.txt using Guid(74a956f4008b8ee4f90895d0ac19f471) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a1c2e40579004705edcfa61675ba384') in 0.00128902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000011 seconds.
-  path: Assets/Pixel FX - Fire/Animations/Fire_Meteors_Medium_A_Start.anim
-  artifactKey: Guid(a24d9e4d8faceac42b898d439976ec0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Pixel FX - Fire/Animations/Fire_Meteors_Medium_A_Start.anim using Guid(a24d9e4d8faceac42b898d439976ec0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0286f1be36859c6ea1345399a5c558bc') in 0.002289165 seconds
+  path: Assets/dragão/flying_dragon-red_3.controller
+  artifactKey: Guid(55054cc4719f8ea49b93c8c01344839f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/flying_dragon-red_3.controller using Guid(55054cc4719f8ea49b93c8c01344839f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bb6e4f67a95b00578feaae7d1e3a028') in 0.001701422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/dragão/preview.gif
+  artifactKey: Guid(15bd1fe4270072a4f81b95487295846e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/preview.gif using Guid(15bd1fe4270072a4f81b95487295846e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88e37dd41fa13405080174768b5a954f') in 0.113743391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/dragão/PNG/144x128/flying_dragon-gold.png
+  artifactKey: Guid(83ecd8cfd87028a41a0daba688872320) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/PNG/144x128/flying_dragon-gold.png using Guid(83ecd8cfd87028a41a0daba688872320) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '067e661be49318e2d43073f2f160aa7b') in 0.010444752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/dragão/source/preview.xcf
+  artifactKey: Guid(2f32263287c87b3488b7812f0eb75a4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/source/preview.xcf using Guid(2f32263287c87b3488b7812f0eb75a4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e8968752e4d9de07d94b1c40ec4f528') in 0.001327028 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/dragão/PNG/191x161/flying_dragon-red-RGB.png
+  artifactKey: Guid(154b9dfcd9c5ae14f9708c84d01c23a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/PNG/191x161/flying_dragon-red-RGB.png using Guid(154b9dfcd9c5ae14f9708c84d01c23a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e87f528027fe96eb39b89e5b3a66803d') in 0.010368066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/dragão/source/flying_twin_headed_dragon-144x128.xcf
+  artifactKey: Guid(245ad1fcc3012c44493049ced5bf0f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/source/flying_twin_headed_dragon-144x128.xcf using Guid(245ad1fcc3012c44493049ced5bf0f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06a5fc7b09e96dac0175b7b7bc0020e3') in 0.00131344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/dragão voando boca fechada.jpeg
+  artifactKey: Guid(2a19244ece79f56479f67853c2b6c354) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão voando boca fechada.jpeg using Guid(2a19244ece79f56479f67853c2b6c354) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85da27b270928587df4ef3a8d4afdf7a') in 0.004422045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animations/Controlers/SkeletonAnimationController.controller
+  artifactKey: Guid(19a893badb8e417bd82bca4991231f1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Controlers/SkeletonAnimationController.controller using Guid(19a893badb8e417bd82bca4991231f1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f4072fdd45ff426f91363c230f19e61') in 0.002251668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/dragão_voando_boca_fechada-removebg-preview.png
+  artifactKey: Guid(15101048e1748c648a6cf551ea894ad9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão_voando_boca_fechada-removebg-preview.png using Guid(15101048e1748c648a6cf551ea894ad9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32a14f5d7a2c58e92125170cadbdefa7') in 0.005812516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/dragão/PNG/144x128
+  artifactKey: Guid(b3eb61f4f9bc8dd4fb18422db828c1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/PNG/144x128 using Guid(b3eb61f4f9bc8dd4fb18422db828c1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca30e9b7e11e811de965075b1a9abc6a') in 0.001338696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/dragão/source
+  artifactKey: Guid(424d62df32ddd9f48821025fce597752) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/source using Guid(424d62df32ddd9f48821025fce597752) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bcb0789daab0535c6c80b1e1b3a2ab88') in 0.001434171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs
+  artifactKey: Guid(0f5034bc83802944c9bca57c55e08978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs using Guid(0f5034bc83802944c9bca57c55e08978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23c15b1c7327a14917cfd491197312f0') in 0.001364662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/dragão/preview.png
+  artifactKey: Guid(26608e777bb7df44ca4be8ce71dfe457) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/preview.png using Guid(26608e777bb7df44ca4be8ce71dfe457) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8845f7b3d8e3db0bb6e9cdda42c5078a') in 0.004755119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/dragão/TODO.txt
+  artifactKey: Guid(fcabc754a88548246876e53ad4e05ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/TODO.txt using Guid(fcabc754a88548246876e53ad4e05ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13c0acf9eeccb5dca54e3ce48256e3e3') in 0.00207067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/dragão/PNG/144x128/flying_twin_headed_dragon-blue.png
+  artifactKey: Guid(3c4957fa3d5a6d9408756124fd1091f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/PNG/144x128/flying_twin_headed_dragon-blue.png using Guid(3c4957fa3d5a6d9408756124fd1091f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c91ae530f45db8b500db5908ac95a4fa') in 0.010739379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/dragão/PNG
+  artifactKey: Guid(6af0ca72d93962a4ea1d9e58dd7a0d9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/PNG using Guid(6af0ca72d93962a4ea1d9e58dd7a0d9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15855fa64ed38622b2895a81cf1cfff6') in 0.001538415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/dragão/source/preview-static.xcf
+  artifactKey: Guid(79c1a4f0064381742960d977086d0139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/source/preview-static.xcf using Guid(79c1a4f0064381742960d977086d0139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f1f05b14d14bb61fbb3f3facd5ff77d') in 0.001513906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/dragão/CHANGES.txt
+  artifactKey: Guid(07943f2a8fbd8ae46ae10aee83afe3b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/CHANGES.txt using Guid(07943f2a8fbd8ae46ae10aee83afe3b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b31f71993633723bd28843e0e3c6ed7') in 0.001333493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/dragão/sources.md
+  artifactKey: Guid(39e58488861a1f241a15695d25d8373c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/sources.md using Guid(39e58488861a1f241a15695d25d8373c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60de24dcb52cfbcb0941a2681b8187cc') in 0.001587858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/dragão/PNG/144x128/flying_dragon-red.png
+  artifactKey: Guid(1223e01e5ad11e24297166e2a875f040) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/dragão/PNG/144x128/flying_dragon-red.png using Guid(1223e01e5ad11e24297166e2a875f040) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63ff5d70396b42f535396ba9edd8a786') in 0.009403043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
