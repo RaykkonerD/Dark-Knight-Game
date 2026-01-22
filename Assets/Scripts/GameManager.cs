@@ -4,8 +4,9 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject gameOvermenu;
+    public GameObject gameVictoryMenu;
     public int currentPhase = 1;
-    private string[] phasesNames = { "fase1", "fase2", "fase3" };
+    private string[] phasesNames = { "fase1", "fase2", "fase3" , "fasebonus"};
 
     public void Start(){
     }
@@ -14,6 +15,14 @@ public class GameManager : MonoBehaviour
     {
         gameOvermenu.SetActive(true);
         Time.timeScale = 0f;
+    }
+
+    public void GameVictory()
+    {
+        gameVictoryMenu.SetActive(true);
+        Debug.Log("Victory!");
+        Time.timeScale = 0f;
+        
     }
 
     public void ResetGame()

@@ -63,7 +63,7 @@ public class HeroKnight : MonoBehaviour {
 
     void LateUpdate()
     {
-        if (transform.position.x > startPos + 5f && transform.position.x < 68f && gameManager.currentPhase == 1)
+        if (transform.position.x > startPos + 5f && transform.position.x < 68f && (gameManager.currentPhase == 1 || gameManager.currentPhase == 4))
         {
             Vector3 camPos = cameraTransform.position;
             camPos.x = transform.position.x + 2f;

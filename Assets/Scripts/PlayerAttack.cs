@@ -19,6 +19,12 @@ public class PlayerAttack : MonoBehaviour
                 {
                     npcHealth.TakeDamage(1f);
                 }
+                
+                DragonHealthSystem dragonHealth = inimigo.GetComponent<DragonHealthSystem>();
+                if (dragonHealth != null)
+                {
+                    dragonHealth.TakeDamage(1f);
+                }
             }
 
             somAtaque.Play();
