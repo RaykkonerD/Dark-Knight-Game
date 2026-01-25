@@ -13,6 +13,8 @@ public class SlideCamera : MonoBehaviour
 
     void Update()
     {
+        if (transform.position.x >= 52f)
+         return;
         if(playerTransform == null || playerController == null || playerController.isDead) return;
         transform.Translate(Vector3.right * speed * Time.deltaTime);
 

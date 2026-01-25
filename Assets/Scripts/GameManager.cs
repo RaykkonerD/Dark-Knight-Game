@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log(phasesNames[currentPhase]);
         SceneManager.LoadScene(phasesNames[currentPhase]);
-        currentPhase++;
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame

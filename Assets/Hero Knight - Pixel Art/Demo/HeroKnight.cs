@@ -145,9 +145,8 @@ public class HeroKnight : MonoBehaviour {
         {
             TakeDamage(baseLives);
         }
-        else if (other.gameObject.CompareTag("CaveEntrance"))
+        else if (other.gameObject.CompareTag("CaveEntrance") || other.gameObject.CompareTag("PhaseEndZone"))
         {
-            Debug.Log("Entrou na caverna");
             other.enabled = false;
             Invoke("GoToNextPhase", 0.5f);
         }
@@ -266,19 +265,10 @@ public class HeroKnight : MonoBehaviour {
             m_animator.SetBool("WallSlide", m_isWallSliding);
             fallHeightRecorded = m_isWallSliding ? false : fallHeightRecorded;
 
-            //Death
-            if (Input.GetKeyDown("e") && !m_rolling)
-            {
-                m_animator.SetBool("noBlood", m_noBlood);
-                m_animator.SetTrigger("Death");
-            }
-
-            //Hurt
-            else if (Input.GetKeyDown("q") && !m_rolling)
-                m_animator.SetTrigger("Hurt");
+           
 
             //Attack
-            else if (Input.GetMouseButtonDown(0) && m_timeSinceAttack > 0.25f && !m_rolling)
+             if (Input.GetMouseButtonDown(0) && m_timeSinceAttack > 0.25f && !m_rolling)
             {
                 m_currentAttack++;
 

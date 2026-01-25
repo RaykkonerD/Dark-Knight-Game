@@ -1906,6 +1906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragonHealthSystem
   maxHealth: 10
+  invulnerabilityDuration: 1.5
   animator: {fileID: 773699016}
   hurtSound: {fileID: 883278538}
   deathSound: {fileID: 702299103}
