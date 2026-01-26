@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     private string[] phasesNames = { "fase1", "fase2", "fase3" , "fasebonus"};
 
     public void Start(){
+        Screen.SetResolution(1920, 1080, true);
     }
 
     public void GameOver()

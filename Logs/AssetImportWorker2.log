@@ -8,18 +8,18 @@ Kernel version:          6.8.0-90-generic
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        64076 MB
-Date:                    2026-01-25T20:09:55Z
+Date:                    2026-01-25T20:09:56Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb" at "2026-01-25T20:09:55.961258Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb" at "2026-01-25T20:09:56.654541Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              5085255a7c3e47c99240cfb8478127ac
+  Session Id:              b8a7e3845dc2448ca5d1cc8998c49ff8
   Correlation Id:          fcec67274999485dda55661e011e37c1
-  External correlation Id: 5753441942097397488
+  External correlation Id: 6951367660015932512
   Machine Id:              sbIb1fEphs9lQu1gWw5rC7lCrG4=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ifpb" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb-notifications" at "2026-01-25T20:09:55.963847Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ifpb-notifications" at "2026-01-25T20:09:56.655518Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 2560 x 1080 @ 60 Hz
@@ -31,11 +31,11 @@ Unity
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker2
 -projectPath
 /home/ifpb/Dark Knight
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker2.log
 -srvPort
 39605
 -licensingIpc
@@ -83,18 +83,18 @@ Successfully changed project path to: /home/ifpb/Dark Knight
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [130719957867264]  Target information:
+Player connection [136185974061824]  Target information:
 
-Player connection [130719957867264]  * "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 2058300583 [EditorId] 2058300583 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [136185974061824]  * "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1750305017 [EditorId] 1750305017 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [130719957867264]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 2058300583 [EditorId] 2058300583 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [136185974061824]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 1750305017 [EditorId] 1750305017 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [130719957867264]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 2058300583 [EditorId] 2058300583 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [136185974061824]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 1750305017 [EditorId] 1750305017 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [130719957867264]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 2058300583 [EditorId] 2058300583 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [136185974061824]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 1750305017 [EditorId] 1750305017 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.14) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [130719957867264] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [130719957867264] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [136185974061824] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [136185974061824] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -106,7 +106,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0,90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -124,12 +124,12 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow
 _lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1567733088
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1316319232
 Initialize mono
 Mono path[0] = '/home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
 Mono path[1] = '/home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56565
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56673
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -142,11 +142,11 @@ Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/
   Expiration: Unlimited
 Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/ifpb/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001575 seconds.
-- Loaded All Assemblies, in  0,291 seconds
+Registered in 0,001693 seconds.
+- Loaded All Assemblies, in  0,290 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 230 ms
+Android Extension - Scanning For ADB Devices 225 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -154,9 +154,9 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,629 seconds
-Domain Reload Profiling: 919ms
-	BeginReloadAssembly (67ms)
+- Finished resetting the current domain, in  0,608 seconds
+Domain Reload Profiling: 898ms
+	BeginReloadAssembly (62ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -164,23 +164,23 @@ Domain Reload Profiling: 919ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (147ms)
-		LoadAssemblies (67ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (62ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (132ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (133ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (629ms)
+	FinalizeReload (608ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (589ms)
+		SetupLoadedEditorAssemblies (569ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (316ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (74ms)
+			InitializePlatformSupportModulesInManaged (310ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (70ms)
 			ProcessInitializeOnLoadAttributes (123ms)
 			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (0ms)
@@ -192,8 +192,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0,556 seconds
-Refreshing native plugins compatible for Editor in 0,30 ms, found 1 plugins.
+- Loaded All Assemblies, in  0,569 seconds
+Refreshing native plugins compatible for Editor in 0,54 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -202,9 +202,9 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,757 seconds
-Domain Reload Profiling: 1312ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0,748 seconds
+Domain Reload Profiling: 1316ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
@@ -213,116 +213,92 @@ Domain Reload Profiling: 1312ms
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (369ms)
-		LoadAssemblies (209ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (215ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (146ms)
-			BuildScriptInfoCaches (39ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (40ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (757ms)
+	FinalizeReload (748ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (645ms)
+		SetupLoadedEditorAssemblies (623ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (127ms)
-			ProcessInitializeOnLoadAttributes (396ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
 AutoLocale: current locale expects 'C' but got 'pt_BR.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6939 unused Assets / (5.1 MB). Loaded Objects now: 7776.
-Memory consumption went from 147.0 MB to 141.9 MB.
-Total: 11.396485 ms (FindLiveObjects: 0.528477 ms CreateObjectMapping: 0.621558 ms MarkObjects: 6.963656 ms  DeleteObjects: 3.281729 ms)
+Unloading 6939 unused Assets / (4.7 MB). Loaded Objects now: 7776.
+Memory consumption went from 147.0 MB to 142.3 MB.
+Total: 10.045871 ms (FindLiveObjects: 0.443986 ms CreateObjectMapping: 0.534647 ms MarkObjects: 6.050380 ms  DeleteObjects: 3.016267 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 319285.601522 seconds.
-  path: Assets/Audio/fight.wav
-  artifactKey: Guid(c7a0c8419c842704181416c479f34582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Audio/fight.wav using Guid(c7a0c8419c842704181416c479f34582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc365ae372b2f4c7718519a4d60694e0') in 0.074428766 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 319290.963722 seconds.
+  path: Assets/Scenes/fasebonus.unity
+  artifactKey: Guid(d869b746bc63fd54ea489e919fd716c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fasebonus.unity using Guid(d869b746bc63fd54ea489e919fd716c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874d440e3478c0df2e936f907adb3a4f') in 0.003636392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1358.277175 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/attack-01.png
-  artifactKey: Guid(d158b158ee8df3a44b010b2fb940c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlatformerSet1/AnimCharacter/attack-01.png using Guid(d158b158ee8df3a44b010b2fb940c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
- -> (artifact id: '0f9667aadc8bdc4db509d904fd79b2e7') in 0.050313548 seconds
+  Time since last request: 1144.294744 seconds.
+  path: Assets/WhatsApp Image 2026-01-25 at 17.28.12.jpeg
+  artifactKey: Guid(02170c83e013b9ae0bb02402d85bdf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhatsApp Image 2026-01-25 at 17.28.12.jpeg using Guid(02170c83e013b9ae0bb02402d85bdf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '00b93cafc50ad0110b7942dd41dc3ae5') in 0.055837043 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/attack-02.png
-  artifactKey: Guid(9a20c343a03a6e54a9a3c14e4ed48626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlatformerSet1/AnimCharacter/attack-02.png using Guid(9a20c343a03a6e54a9a3c14e4ed48626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed624bbd8412f3dcda6ddee923a6f340') in 0.004061854 seconds
+  Time since last request: 0.927710 seconds.
+  path: Assets/WhatsApp Image 2026-01-25 at 17.28.12.jpeg
+  artifactKey: Guid(02170c83e013b9ae0bb02402d85bdf84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/WhatsApp Image 2026-01-25 at 17.28.12.jpeg using Guid(02170c83e013b9ae0bb02402d85bdf84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5451530c6d341f3d2d0b4ab975c0ecbb') in 0.083096542 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.036909 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/attack-06.png
-  artifactKey: Guid(d0a5804cfe067a24197f6625bb09f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlatformerSet1/AnimCharacter/attack-06.png using Guid(d0a5804cfe067a24197f6625bb09f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3c192071f55de1443cdf10a5bdc2589') in 0.009541053 seconds
+  Time since last request: 207.594087 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '998349b499021dff738fbf7bcd1979e6') in 0.284435427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-03.png
+  artifactKey: Guid(0eb6b104a0a66294dadc3d37f183f3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-03.png using Guid(0eb6b104a0a66294dadc3d37f183f3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '329d0ea660039ebf892ed1cad56b3d1c') in 0.005748987 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack1.png
-  artifactKey: Guid(ce3326307819d6e4497038e63e070108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack1.png using Guid(ce3326307819d6e4497038e63e070108) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43509dbb310b799cca65b5b09526d4bf') in 0.024790842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack2.png
-  artifactKey: Guid(179f77b4a77508644bb0e4717e8add6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack2.png using Guid(179f77b4a77508644bb0e4717e8add6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '680fa210f64bf4212257c478836d002e') in 0.018685454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/attack-07-continue.png
-  artifactKey: Guid(b06a0c5187b449349b9e035257636f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlatformerSet1/AnimCharacter/attack-07-continue.png using Guid(b06a0c5187b449349b9e035257636f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5f3e5f490fd3b5c58796276be4587b7') in 0.015579703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack1.png
-  artifactKey: Guid(5cdfcef2d5ef97347a8d7935407f81ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack1.png using Guid(5cdfcef2d5ef97347a8d7935407f81ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85ca0fb64ea9022ad651c6c75f547d7a') in 0.020489178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/attack-05.png
-  artifactKey: Guid(795b97dd4efe7c748885440b5a8daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlatformerSet1/AnimCharacter/attack-05.png using Guid(795b97dd4efe7c748885440b5a8daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5384556a33199f444251c7d1fd4fc73b') in 0.003919759 seconds
+  path: Assets/PlatformerSet1/AnimCharacter/attack-04.png
+  artifactKey: Guid(fa0cb05d87d658147a2fdc6f50f5bf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-04.png using Guid(fa0cb05d87d658147a2fdc6f50f5bf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '043553267b18a863b230d8b1f776e783') in 0.005201339 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack2.png
-  artifactKey: Guid(dd255f029b1eb1347b77fb335d97ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack2.png using Guid(dd255f029b1eb1347b77fb335d97ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76b0472e4424738b99ea652aa3b297ad') in 0.022345795 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000015 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-08-continue.png
+  artifactKey: Guid(5a90aedfd7cdeec4898996cc04258783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-08-continue.png using Guid(5a90aedfd7cdeec4898996cc04258783) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2805fb6478efe8372579bfa3d0ab3019') in 0.005251669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
